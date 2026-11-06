@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "protocol_id": "senior-chembi-logp-sa-tpsa-20261008",
+  "authoritative_source": "senior-delivered headerless seven-column ChemBI CSVs",
+  "selected_order": [
+    "logP",
+    "SA",
+    "TPSA"
+  ],
+  "python_version": "3.12.14",
+  "normalization": {
+    "method": "z_score",
+    "formula": "(x - train_mean) / train_population_std",
+    "fit_split": "train_only",
+    "missing_value_policy": "fail_closed; no silent imputation"
+  },
+  "descriptors": [
+    {
+      "name": "logP",
+      "source_column": "E",
+      "unit": "dimensionless",
+      "meaning": "lipophilicity/hydrophobicity tendency",
+      "reference_calculation": "rdkit.Chem.Crippen.MolLogP"
+    },
+    {
+      "name": "SA",
+      "source_column": "F",
+      "unit": "dimensionless score",
+      "meaning": "synthetic accessibility; lower is generally easier",
+      "reference_calculation": "rdkit.Contrib.SA_Score.sascorer.calculateScore"
+    },
+    {
+      "name": "TPSA",
+      "source_column": "G",
+      "unit": "angstrom^2",
+      "meaning": "topological polar surface area",
+      "reference_calculation": "rdkit.Chem.rdMolDescriptors.CalcTPSA"
+    }
+  ],
+  "script_sha256": "6a49958340c65b95cab82c2f2afeff7e3e6109964dbda285a54c61e4a082c1fa"
+}

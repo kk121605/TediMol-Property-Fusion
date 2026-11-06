@@ -1,0 +1,12 @@
+numpy==1.26.4
+transformers==4.45.2
+tokenizers==0.20.1
+huggingface-hub==0.26.1
+safetensors==0.4.5
+rdkit==2024.3.5
+selfies==2.1.1
+tqdm==4.66.5
+nltk==3.9.1
+Levenshtein==0.25.1
+psutil==6.1.0
+regex==2026.9.10

@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Recovered bytes and historical hashes must remain stable.
+research/** -text -whitespace
+archive/** -text -whitespace
+evidence/** -text -whitespace

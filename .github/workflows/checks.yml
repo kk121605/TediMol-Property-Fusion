@@ -1,0 +1,30 @@
+name: CPU research checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.12']
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      TOKENIZERS_PARALLELISM: 'false'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install CPU dependencies
+        run: |
+          python -m pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements-cpu.txt
+      - name: Check recovered source hashes
+        run: python tools/verify_sources.py
+      - name: Test the actual reduced-dimension branch code
+        run: python -m unittest discover -s tests -v
+      - name: Four-branch synthetic demo
+        run: python portfolio.py
+      - name: Independently recompute both full-test snapshots
+        run: python tools/evaluate_predictions.py

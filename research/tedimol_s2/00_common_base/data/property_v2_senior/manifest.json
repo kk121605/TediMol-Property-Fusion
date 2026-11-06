@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-10-08T00:28:17.095455+00:00",
+  "protocol_id": "senior-chembi-logp-sa-tpsa-20261008",
+  "inputs": {
+    "baseline_train": {
+      "path": "C:\\Users\\Administrator\\Desktop\\科研项目_文本+化学属性数值_mwj\\04_TediMol第一阶段复现\\02_运行代码\\tedimol_chembi\\data\\train_ChemBI.csv",
+      "sha256": "ac948550e8f17651eee9a5d863f3427a12df46e41baa18ddd2ba5b0e26b0b0d4"
+    },
+    "baseline_test": {
+      "path": "C:\\Users\\Administrator\\Desktop\\科研项目_文本+化学属性数值_mwj\\04_TediMol第一阶段复现\\02_运行代码\\tedimol_chembi\\data\\test_ChemBI.csv",
+      "sha256": "2fba606b759da0fb331b41fbd759ad10d0dfb6514084b609fc6347645fc5e639"
+    },
+    "senior_train_property": {
+      "path": "C:\\Users\\Administrator\\Desktop\\科研项目_文本+化学属性数值_mwj\\05_第二阶段_化学属性融合\\01_师兄原始交付\\ChemBI三属性数据_20261008\\train_ChemBI_property.csv",
+      "sha256": "325d8eb471850d2b19aac73f1c3cb4f72dbdfb557ef1f1ded7ab2b6bec34b00c"
+    },
+    "senior_test_property": {
+      "path": "C:\\Users\\Administrator\\Desktop\\科研项目_文本+化学属性数值_mwj\\05_第二阶段_化学属性融合\\01_师兄原始交付\\ChemBI三属性数据_20261008\\test_ChemBI_property.csv",
+      "sha256": "5f37ab1a42863b4c5f66ff137cdd92816bfc7e3da4e6d892084bcf513beba3d5"
+    }
+  },
+  "outputs": {
+    "01_师兄交付属性数据审计报告.md": "bbfcdf42c6718785a2b7cfcd332f10cc629c3c86486df5b5bcdd46d05f82e5b5",
+    "property_audit.json": "3b198349811a633aa7645714739def4952cda8cd1da7caa4c4e1117f6a747cea",
+    "property_schema.json": "5061b1cb9e0729898b1623b964bbfa20650ae2fe3a346ad6d2fe2b876d4c4c02",
+    "test_properties.csv": "d1eb875c7e98f2e620cbbb2650e6abe83cca444425dd57cbdaf38e7addfe2507",
+    "train_properties.csv": "a8e4e9170ff34be16053562255c167bb8086427d112c43008ba7ae2745bae54c",
+    "train_stats.json": "b51db156058726f34c52a8ea78da1c82ab1f6d56a95e36b60994ace16cb85123",
+    "semantic_verification.json": "33f3b076c1565799ccbddf80f4469b4067a792b6b946ea98e301e693a3d5a0d5"
+  }
+}

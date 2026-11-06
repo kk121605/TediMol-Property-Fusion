@@ -1,0 +1,55 @@
+{
+  "scope": "Single text-only A0c snapshot; not evidence of property control or statistical superiority.",
+  "original_result_archive_sha256": "8b6ef7ed969966a6cb7b76bc00c9e89496a097c6bd2fddfd5d98dfd0be0a7357",
+  "original_archive_manifest_files_verified": 11,
+  "new_checkpoint_sha256": "c9de3adc45c4fcefa659a104601e2fc389cb9e5fe0192c7cb0e4bd8da05e83e0",
+  "checkpoint_tensors_included": false,
+  "training_csv_sha256": "ac948550e8f17651eee9a5d863f3427a12df46e41baa18ddd2ba5b0e26b0b0d4",
+  "unique_training_canonical_molecules": 22169,
+  "canonicalization_rdkit_version": "2024.03.5",
+  "settings": {
+    "checkpoint_step": 1200000,
+    "parent_stage1_step": 300000,
+    "seed": 121,
+    "batch_size": 8,
+    "sample_steps": 200,
+    "weights": "EMA",
+    "sample_length": 258,
+    "reference_not_model_input": true
+  },
+  "stage1_300k": {
+    "n_generated": 2795,
+    "n_valid": 2789,
+    "n_valid_reference_pairs": 2789,
+    "validity": 0.9978533094812164,
+    "exact_canonical_isomeric_smiles": 0.14311270125223613,
+    "maccs_paired_valid_mean": 0.7441458600518993,
+    "rdk_paired_valid_mean": 0.594900504804516,
+    "morgan_r2_2048_paired_valid_mean": 0.48513837037127544,
+    "uniqueness_valid_canonical": 0.9928289709573324,
+    "novelty_unique_valid_canonical": 0.8349584687612857,
+    "n_exact": 400,
+    "n_unique": 2769,
+    "n_novel_unique": 2312
+  },
+  "a0c_stage2_1200k": {
+    "n_generated": 2795,
+    "n_valid": 2792,
+    "n_valid_reference_pairs": 2792,
+    "validity": 0.9989266547406083,
+    "exact_canonical_isomeric_smiles": 0.15849731663685152,
+    "maccs_paired_valid_mean": 0.7550287264895311,
+    "rdk_paired_valid_mean": 0.6175398889954515,
+    "morgan_r2_2048_paired_valid_mean": 0.5108122116741817,
+    "uniqueness_valid_canonical": 0.9892550143266475,
+    "novelty_unique_valid_canonical": 0.8175235336712527,
+    "n_exact": 443,
+    "n_unique": 2762,
+    "n_novel_unique": 2258
+  },
+  "files_sha256": {
+    "a0c_predictions.csv": "03eb780b8cff4596f46663817267ad2e771f48746f3e05b5b6b42e74fb8cbeac",
+    "stage1_predictions.csv": "067091cc151290275811a19fd9c894bc897fb8bc8aadb973f0d1395595a42c20",
+    "training_canonical_sha256.json": "b19ba564defe0466f771f8948aca996eff2f314afc5a8246d0ac71bf14a20ad9"
+  }
+}

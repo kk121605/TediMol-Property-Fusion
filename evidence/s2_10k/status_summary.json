@@ -1,0 +1,302 @@
+{
+  "scope": "Historical 10k single-seed training receipts; small seen-train panel is not generalization or stable property-control evidence.",
+  "branches": {
+    "a0c": {
+      "status": {
+        "completed_steps": 10000,
+        "budget_steps": 10000,
+        "completed": true
+      },
+      "training_config": {
+        "protocol": "tedimol-s2-10k-20261012-v1",
+        "mode": "a0c",
+        "model": {
+          "in_channels": 32,
+          "model_channels": 128,
+          "hidden_size": 1024,
+          "num_attention_heads": 16,
+          "num_hidden_layers": 12,
+          "intermediate_size": 3072,
+          "dropout": 0.1,
+          "max_position_embeddings": 512
+        },
+        "property_names": [
+          "logP",
+          "SA",
+          "TPSA"
+        ],
+        "property_means": [
+          0.7351893400694665,
+          3.9708362060083897,
+          141.74815553250033
+        ],
+        "property_stds": [
+          4.873822357599713,
+          1.423484841776143,
+          132.36113648137763
+        ],
+        "property_bottleneck": 256,
+        "initial_weights": "A0 final EMA; fresh optimizer",
+        "budget_steps": 10000,
+        "lr_horizon_steps": 300000,
+        "lr": 1e-05,
+        "batch_size": 16,
+        "microbatch": 2,
+        "seed": 19991009,
+        "ema_rate": 0.9999,
+        "grad_clip": 2.4,
+        "weight_decay": 0.0,
+        "precision": "float32",
+        "training_rows": 22169,
+        "data_permutation_seed": 0,
+        "rng": "seed+step*8192+micro_offset before each micro; matched pre-forward noise, dropout shapes differ",
+        "evaluation": "single-seed seen-A0-train engineering panel, not validation/test",
+        "comparison_boundary": "unequal parameter counts, A1/A2 prefix lengths and positional shifts; engineering only",
+        "property_encoder_metadata": null,
+        "sampler_policy": "drop final incomplete batch; next epoch permutation uses seed=epoch"
+      },
+      "evidence_status_sha256": "7dc9924d2437fdfccf45f7af8393209876ee122d619e41bc11f026cc78592978"
+    },
+    "a1_prefix": {
+      "status": {
+        "completed_steps": 10000,
+        "budget_steps": 10000,
+        "completed": true
+      },
+      "training_config": {
+        "protocol": "tedimol-s2-10k-20261012-v1",
+        "mode": "a1_prefix",
+        "model": {
+          "in_channels": 32,
+          "model_channels": 128,
+          "hidden_size": 1024,
+          "num_attention_heads": 16,
+          "num_hidden_layers": 12,
+          "intermediate_size": 3072,
+          "dropout": 0.1,
+          "max_position_embeddings": 512
+        },
+        "property_names": [
+          "logP",
+          "SA",
+          "TPSA"
+        ],
+        "property_means": [
+          0.7351893400694665,
+          3.9708362060083897,
+          141.74815553250033
+        ],
+        "property_stds": [
+          4.873822357599713,
+          1.423484841776143,
+          132.36113648137763
+        ],
+        "property_bottleneck": 256,
+        "initial_weights": "A0 final EMA; fresh optimizer",
+        "budget_steps": 10000,
+        "lr_horizon_steps": 300000,
+        "lr": 1e-05,
+        "batch_size": 16,
+        "microbatch": 2,
+        "seed": 19991009,
+        "ema_rate": 0.9999,
+        "grad_clip": 2.4,
+        "weight_decay": 0.0,
+        "precision": "float32",
+        "training_rows": 22169,
+        "data_permutation_seed": 0,
+        "rng": "seed+step*8192+micro_offset before each micro; matched pre-forward noise, dropout shapes differ",
+        "evaluation": "single-seed seen-A0-train engineering panel, not validation/test",
+        "comparison_boundary": "unequal parameter counts, A1/A2 prefix lengths and positional shifts; engineering only",
+        "property_encoder_metadata": {
+          "mode": "a1_prefix",
+          "property_names": [
+            "logP",
+            "SA",
+            "TPSA"
+          ],
+          "means": [
+            0.7351893186569214,
+            3.9708361625671387,
+            141.74815368652344
+          ],
+          "stds": [
+            4.873822212219238,
+            1.4234848022460938,
+            132.3611297607422
+          ],
+          "missing_policy": "z=0 plus learned observed/missing embedding"
+        },
+        "sampler_policy": "drop final incomplete batch; next epoch permutation uses seed=epoch"
+      },
+      "evidence_status_sha256": "7dc9924d2437fdfccf45f7af8393209876ee122d619e41bc11f026cc78592978"
+    },
+    "a2_rt_numeric": {
+      "status": {
+        "completed_steps": 10000,
+        "budget_steps": 10000,
+        "completed": true
+      },
+      "training_config": {
+        "protocol": "tedimol-s2-10k-20261012-v1",
+        "mode": "a2_rt_numeric",
+        "model": {
+          "in_channels": 32,
+          "model_channels": 128,
+          "hidden_size": 1024,
+          "num_attention_heads": 16,
+          "num_hidden_layers": 12,
+          "intermediate_size": 3072,
+          "dropout": 0.1,
+          "max_position_embeddings": 512
+        },
+        "property_names": [
+          "logP",
+          "SA",
+          "TPSA"
+        ],
+        "property_means": [
+          0.7351893400694665,
+          3.9708362060083897,
+          141.74815553250033
+        ],
+        "property_stds": [
+          4.873822357599713,
+          1.423484841776143,
+          132.36113648137763
+        ],
+        "property_bottleneck": 256,
+        "initial_weights": "A0 final EMA; fresh optimizer",
+        "budget_steps": 10000,
+        "lr_horizon_steps": 300000,
+        "lr": 1e-05,
+        "batch_size": 16,
+        "microbatch": 2,
+        "seed": 19991009,
+        "ema_rate": 0.9999,
+        "grad_clip": 2.4,
+        "weight_decay": 0.0,
+        "precision": "float32",
+        "training_rows": 22169,
+        "data_permutation_seed": 0,
+        "rng": "seed+step*8192+micro_offset before each micro; matched pre-forward noise, dropout shapes differ",
+        "evaluation": "single-seed seen-A0-train engineering panel, not validation/test",
+        "comparison_boundary": "unequal parameter counts, A1/A2 prefix lengths and positional shifts; engineering only",
+        "property_encoder_metadata": {
+          "mode": "a2_rt_numeric",
+          "property_names": [
+            "logP",
+            "SA",
+            "TPSA"
+          ],
+          "means": [
+            0.7351893186569214,
+            3.9708361625671387,
+            141.74815368652344
+          ],
+          "stds": [
+            4.873822212219238,
+            1.4234848022460938,
+            132.3611297607422
+          ],
+          "missing_policy": "z=0 plus learned observed/missing embedding",
+          "numerical_token_encoding": {
+            "kind": "RT-inspired digit/place prefix; not complete RT",
+            "orders": [
+              2,
+              1,
+              0,
+              -1,
+              -2,
+              -3,
+              -4
+            ],
+            "precision": 4,
+            "tokens_per_property": 8,
+            "prefix_length": 24,
+            "numerical_vmax": 10.0,
+            "sign": "separate learned sign token; zero has positive sign",
+            "molecular_vocabulary_changed": false,
+            "quantized_input_not_differentiable": true
+          }
+        },
+        "sampler_policy": "drop final incomplete batch; next epoch permutation uses seed=epoch"
+      },
+      "evidence_status_sha256": "7dc9924d2437fdfccf45f7af8393209876ee122d619e41bc11f026cc78592978"
+    },
+    "a3_adaln_zero": {
+      "status": {
+        "completed_steps": 10000,
+        "budget_steps": 10000,
+        "completed": true
+      },
+      "training_config": {
+        "protocol": "tedimol-s2-10k-20261012-v1",
+        "mode": "a3_adaln_zero",
+        "model": {
+          "in_channels": 32,
+          "model_channels": 128,
+          "hidden_size": 1024,
+          "num_attention_heads": 16,
+          "num_hidden_layers": 12,
+          "intermediate_size": 3072,
+          "dropout": 0.1,
+          "max_position_embeddings": 512
+        },
+        "property_names": [
+          "logP",
+          "SA",
+          "TPSA"
+        ],
+        "property_means": [
+          0.7351893400694665,
+          3.9708362060083897,
+          141.74815553250033
+        ],
+        "property_stds": [
+          4.873822357599713,
+          1.423484841776143,
+          132.36113648137763
+        ],
+        "property_bottleneck": 256,
+        "initial_weights": "A0 final EMA; fresh optimizer",
+        "budget_steps": 10000,
+        "lr_horizon_steps": 300000,
+        "lr": 1e-05,
+        "batch_size": 16,
+        "microbatch": 2,
+        "seed": 19991009,
+        "ema_rate": 0.9999,
+        "grad_clip": 2.4,
+        "weight_decay": 0.0,
+        "precision": "float32",
+        "training_rows": 22169,
+        "data_permutation_seed": 0,
+        "rng": "seed+step*8192+micro_offset before each micro; matched pre-forward noise, dropout shapes differ",
+        "evaluation": "single-seed seen-A0-train engineering panel, not validation/test",
+        "comparison_boundary": "unequal parameter counts, A1/A2 prefix lengths and positional shifts; engineering only",
+        "property_encoder_metadata": {
+          "mode": "a3_adaln_zero",
+          "property_names": [
+            "logP",
+            "SA",
+            "TPSA"
+          ],
+          "means": [
+            0.7351893186569214,
+            3.9708361625671387,
+            141.74815368652344
+          ],
+          "stds": [
+            4.873822212219238,
+            1.4234848022460938,
+            132.3611297607422
+          ],
+          "missing_policy": "z=0 plus learned observed/missing embedding"
+        },
+        "sampler_policy": "drop final incomplete batch; next epoch permutation uses seed=epoch"
+      },
+      "evidence_status_sha256": "7dc9924d2437fdfccf45f7af8393209876ee122d619e41bc11f026cc78592978"
+    }
+  }
+}

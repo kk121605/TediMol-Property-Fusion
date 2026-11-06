@@ -1,0 +1,376 @@
+{
+  "source_root_label": "supplied TediMol stage-2 workspace",
+  "files": [
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/bootstrap.py",
+      "path": "research/tedimol_s2/00_common_base/bootstrap.py",
+      "sha256": "8c849c6f072884a120e8d2b1e262ba7595fc60639a3e7657a3f3cfbac598e3eb",
+      "bytes": 1606
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/common.py",
+      "path": "research/tedimol_s2/00_common_base/common.py",
+      "sha256": "9d80cece7b2b98b7309c350a43eee845e8b294513f182b35a4eacd81c165c496",
+      "bytes": 5444
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/comparison_runtime.py",
+      "path": "research/tedimol_s2/00_common_base/comparison_runtime.py",
+      "sha256": "741165820359309dcc9723e05d43cc888eaac5618d4346f249749caf89cfd7b2",
+      "bytes": 7752
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/evaluate.py",
+      "path": "research/tedimol_s2/00_common_base/evaluate.py",
+      "sha256": "09d2acf2164b3c48d93ccaa711832401b56640065b0fce3fb3b9f1d3f018f941",
+      "bytes": 7840
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/method_registry.py",
+      "path": "research/tedimol_s2/00_common_base/method_registry.py",
+      "sha256": "9fa91c57523906df1bac5f5a43c1f49eb377de0cdf2c28ae252356345245a03f",
+      "bytes": 874
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/model.py",
+      "path": "research/tedimol_s2/00_common_base/model.py",
+      "sha256": "c1a5b99ca45cba03af2ba54a993ba585bdaaf9a9c22cd67510c1f8dd69e17807",
+      "bytes": 1050
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/mytokenizers.py",
+      "path": "research/tedimol_s2/00_common_base/mytokenizers.py",
+      "sha256": "88a0a8b96cd0b3a3e75bbb143d1976fa3ed16980904a0322037636a799f4f0ef",
+      "bytes": 18673
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/preflight.py",
+      "path": "research/tedimol_s2/00_common_base/preflight.py",
+      "sha256": "c7f662847dc6697d82798756c45c5e5bdb5f98dd71073dcd109ac9494016abfb",
+      "bytes": 3224
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/prepare_data.py",
+      "path": "research/tedimol_s2/00_common_base/prepare_data.py",
+      "sha256": "b129fee3ccea3eea7b24bc0c435eb645d8a012aaa236eb93e5dea329ac5cfd1d",
+      "bytes": 1631
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/process_text.py",
+      "path": "research/tedimol_s2/00_common_base/process_text.py",
+      "sha256": "930629469b87b9be87d888e1324e4799bb3fa1ae0f2f52c15065d55a52172ddc",
+      "bytes": 4507
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/property_common.py",
+      "path": "research/tedimol_s2/00_common_base/property_common.py",
+      "sha256": "c36c6de05fe924f8a3410ca0f5d5ea0b6af8966c053827038095ed7bd84605a9",
+      "bytes": 3272
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/property_data.py",
+      "path": "research/tedimol_s2/00_common_base/property_data.py",
+      "sha256": "bf3545c6c10d4dee0fd7ba0358cba4d3acd84bc97d734c3d501e9cd6d32bd583",
+      "bytes": 2334
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/property_metrics.py",
+      "path": "research/tedimol_s2/00_common_base/property_metrics.py",
+      "sha256": "76c3703bc446b13b42b7af2da228635be8c6744e3ec8239013a19135675dcab9",
+      "bytes": 913
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/property_model_base.py",
+      "path": "research/tedimol_s2/00_common_base/property_model_base.py",
+      "sha256": "401f658bde85a1fdc8e6f4bdac1cf33edaa0942a0b315d2d530bbf7a17b95d61",
+      "bytes": 3750
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/property_runtime.py",
+      "path": "research/tedimol_s2/00_common_base/property_runtime.py",
+      "sha256": "431320bbbd2aa63755f055c39b2fccb465c3245771776f821813d15a945d632a",
+      "bytes": 10846
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/runtime.py",
+      "path": "research/tedimol_s2/00_common_base/runtime.py",
+      "sha256": "728c6d8830616b20d26590ddb7ed6a8b0e67be84abcd61e2bb7423cd691e2f51",
+      "bytes": 3246
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/sample_compare.py",
+      "path": "research/tedimol_s2/00_common_base/sample_compare.py",
+      "sha256": "cdd0855e74292b2a97d6699445989ac9c4a9020e53e8f1cecbfa1d747203e998",
+      "bytes": 8511
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/smoke_test.py",
+      "path": "research/tedimol_s2/00_common_base/smoke_test.py",
+      "sha256": "f41b6b07376b1ab6c261dbda6c424005c6a10b5dbc82fc1930adac18aba60a30",
+      "bytes": 2342
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/test_pipeline.py",
+      "path": "research/tedimol_s2/00_common_base/test_pipeline.py",
+      "sha256": "9d75f009067957040a29534d9fac37d6ae707d0c9461cb7f4d8616edfecff605",
+      "bytes": 2943
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/text_sample.py",
+      "path": "research/tedimol_s2/00_common_base/text_sample.py",
+      "sha256": "aefcf148dcced6ddf5466f22ea3d4e92d1cd05beb87b4cbd1efd151471ef1b6d",
+      "bytes": 5247
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/train_Chem.py",
+      "path": "research/tedimol_s2/00_common_base/train_Chem.py",
+      "sha256": "f35964cd973963d74fc673e17a3fcd83373083dcb0b97f4405709ca860dcffca",
+      "bytes": 10367
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/train_compare.py",
+      "path": "research/tedimol_s2/00_common_base/train_compare.py",
+      "sha256": "8ac1697703352f579631c50750525ec348036aae653b72af04cbb342702aa53e",
+      "bytes": 7089
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/verify_bundle.py",
+      "path": "research/tedimol_s2/00_common_base/verify_bundle.py",
+      "sha256": "e6125918f4a2a111de1e414d3adf7d87529d7d3a3ea9e5858f6844fd6eabfd88",
+      "bytes": 770
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/improved_diffusion/gaussian_diffusion.py",
+      "path": "research/tedimol_s2/00_common_base/improved_diffusion/gaussian_diffusion.py",
+      "sha256": "994bdebe1379676fdb0a08547b67151fcb7118eaa9adb96e1340ba0e477487fd",
+      "bytes": 76210
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/improved_diffusion/losses.py",
+      "path": "research/tedimol_s2/00_common_base/improved_diffusion/losses.py",
+      "sha256": "fc9db890fe8f33667c76b1d556f51578bffe1ce41ad70a90024ae93f469e5278",
+      "bytes": 4159
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/improved_diffusion/nn.py",
+      "path": "research/tedimol_s2/00_common_base/improved_diffusion/nn.py",
+      "sha256": "d9547fb22b421a16dc079cb82a9d98630100b5e1b2a710d343f4d3f90b8661f3",
+      "bytes": 5020
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/improved_diffusion/resample.py",
+      "path": "research/tedimol_s2/00_common_base/improved_diffusion/resample.py",
+      "sha256": "e009055fe84ca3ec090b13a270b98f3dc3332cba863782d068977931d450af04",
+      "bytes": 7820
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/improved_diffusion/respace.py",
+      "path": "research/tedimol_s2/00_common_base/improved_diffusion/respace.py",
+      "sha256": "dc00e8058c6adf529499820907ff877eecd3955845471490c77662a1caf61905",
+      "bytes": 10388
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/improved_diffusion/transformer_model2.py",
+      "path": "research/tedimol_s2/00_common_base/improved_diffusion/transformer_model2.py",
+      "sha256": "c767be2fccdec71933034efa6d448e5cac1932e3d0b0602d3149a23f237efe8f",
+      "bytes": 18878
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/improved_diffusion/__init__.py",
+      "path": "research/tedimol_s2/00_common_base/improved_diffusion/__init__.py",
+      "sha256": "ec30483aa641d5c1b9cc8910554324949f2288eadd085310d4c312cdda294c73",
+      "bytes": 74
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/01_A1_TediMol加JoPMol属性前缀/a1_conditioning.py",
+      "path": "research/tedimol_s2/01_A1_TediMol加JoPMol属性前缀/a1_conditioning.py",
+      "sha256": "91cd5512bddaaa4b10c3a81a087ae191c5864da3f703e6b50814db507ede8e5c",
+      "bytes": 2845
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/01_A1_TediMol加JoPMol属性前缀/a1_fusion_model.py",
+      "path": "research/tedimol_s2/01_A1_TediMol加JoPMol属性前缀/a1_fusion_model.py",
+      "sha256": "9db39e70caf37e2a707c1d30b248d367c3c6006d959fc0dc73ef8ccbc331e314",
+      "bytes": 776
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/01_A1_TediMol加JoPMol属性前缀/sample_a1.py",
+      "path": "archive/branch_entrypoints/01_A1_TediMol加JoPMol属性前缀/sample_a1.py",
+      "sha256": "e031b8db5236851a5ceba67581b04db5b348145851cccaf6b52fc8c83df422fe",
+      "bytes": 298
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/01_A1_TediMol加JoPMol属性前缀/train_a1.py",
+      "path": "archive/branch_entrypoints/01_A1_TediMol加JoPMol属性前缀/train_a1.py",
+      "sha256": "002999b535f7d482a2ce953d5e4e214cb2256fe6fdf44d3edb26a98a6eeedf15",
+      "bytes": 385
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/02_A2_TediMol加RegressionTransformer数值编码/a2_conditioning.py",
+      "path": "research/tedimol_s2/02_A2_TediMol加RegressionTransformer数值编码/a2_conditioning.py",
+      "sha256": "a6fe92d3b6a77b29fb1b4215bbf7718b5ffdbf09a62c93a40421c1ad4c04f231",
+      "bytes": 5172
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/02_A2_TediMol加RegressionTransformer数值编码/a2_fusion_model.py",
+      "path": "research/tedimol_s2/02_A2_TediMol加RegressionTransformer数值编码/a2_fusion_model.py",
+      "sha256": "1ba96540f46d2c0d5ffbd72b03e9b7bb8789ebd5b7c5e2ceebadd6430d35e914",
+      "bytes": 797
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/02_A2_TediMol加RegressionTransformer数值编码/sample_a2.py",
+      "path": "archive/branch_entrypoints/02_A2_TediMol加RegressionTransformer数值编码/sample_a2.py",
+      "sha256": "25416ee7c2a30ed86775fd2ab78e44b3a9c26f6d4d5ff1016634dcf80dac44e4",
+      "bytes": 302
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/02_A2_TediMol加RegressionTransformer数值编码/train_a2.py",
+      "path": "archive/branch_entrypoints/02_A2_TediMol加RegressionTransformer数值编码/train_a2.py",
+      "sha256": "6ec46d253fb14a9e9d612bc5e25f86345d3ef344f78d106a2bddee17275dd5e9",
+      "bytes": 382
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/03_A3_TediMol加GraphDiT启发逐层调节/a3_conditioning.py",
+      "path": "research/tedimol_s2/03_A3_TediMol加GraphDiT启发逐层调节/a3_conditioning.py",
+      "sha256": "0965f676e71c24615d3401ec65891bbae91e1630b5a348d42c62d84195fe5c4a",
+      "bytes": 5462
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/03_A3_TediMol加GraphDiT启发逐层调节/a3_fusion_model.py",
+      "path": "research/tedimol_s2/03_A3_TediMol加GraphDiT启发逐层调节/a3_fusion_model.py",
+      "sha256": "5210aa93a4e0056b60a901db53794e9498886605575f4e451afeb71a0fccfea4",
+      "bytes": 1091
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/03_A3_TediMol加GraphDiT启发逐层调节/sample_a3.py",
+      "path": "archive/branch_entrypoints/03_A3_TediMol加GraphDiT启发逐层调节/sample_a3.py",
+      "sha256": "d0142da5af8ac22ee0c61a0ac6da8061cee5885b6f71d23e4c4baa72a23fbae0",
+      "bytes": 302
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/03_A3_TediMol加GraphDiT启发逐层调节/train_a3.py",
+      "path": "archive/branch_entrypoints/03_A3_TediMol加GraphDiT启发逐层调节/train_a3.py",
+      "sha256": "270122c7b6e6ceeff36344529a447f4cbf93244121a2058a45bf3b0810cb885b",
+      "bytes": 387
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/13_S2_10k统一筛选/train_s2.py",
+      "path": "research/tedimol_s2/00_common_base/train_s2.py",
+      "sha256": "86e4c3a7180c9004be922635b8f77d71af67b7e54c7efdb3e9c79516fff08275",
+      "bytes": 8354
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/13_S2_10k统一筛选/sample_s2.py",
+      "path": "research/tedimol_s2/00_common_base/sample_s2.py",
+      "sha256": "3dfb68ab4efe2415155adebb8a0f94cb093f8bc5f3e10f5e5bf029f40eb0a0a9",
+      "bytes": 6311
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/13_S2_10k统一筛选/run_s2_10k.sh",
+      "path": "research/tedimol_s2/00_common_base/run_s2_10k.sh",
+      "sha256": "2974bd329215f4185df43680eb0ff3af4f0fac3e712d73342c152e2fd9c82466",
+      "bytes": 3295
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/data/selfies_vocab_CHEBI.txt",
+      "path": "research/tedimol_s2/00_common_base/data/selfies_vocab_CHEBI.txt",
+      "sha256": "0f8157884f95680de571601d2f17cfae1207a25a2cb48a8683ed05e67dfcb819",
+      "bytes": 2162
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/data/manifest.json",
+      "path": "research/tedimol_s2/00_common_base/data/manifest.json",
+      "sha256": "131de332bea6e3c70b6c3ac4d44213608e205f529cd9ee969e447209c72969d3",
+      "bytes": 1704
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/data/property_v2_senior/property_schema.json",
+      "path": "research/tedimol_s2/00_common_base/data/property_v2_senior/property_schema.json",
+      "sha256": "5061b1cb9e0729898b1623b964bbfa20650ae2fe3a346ad6d2fe2b876d4c4c02",
+      "bytes": 1283
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/data/property_v2_senior/train_stats.json",
+      "path": "research/tedimol_s2/00_common_base/data/property_v2_senior/train_stats.json",
+      "sha256": "b51db156058726f34c52a8ea78da1c82ab1f6d56a95e36b60994ace16cb85123",
+      "bytes": 1714
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/data/property_v2_senior/manifest.json",
+      "path": "research/tedimol_s2/00_common_base/data/property_v2_senior/manifest.json",
+      "sha256": "5ff717127b42d42e1f63b6bc2dbc20387079e4cc6a35e0d71aa8baa6dee9ac9d",
+      "bytes": 2129
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/models/encoder_manifest.json",
+      "path": "research/tedimol_s2/00_common_base/models/encoder_manifest.json",
+      "sha256": "7567cafa13029d13beac75bcc0d0a62dfa44d8a89a186063dffb573c920c4842",
+      "bytes": 670
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/14_S2续训至30万步_20261015/longrun_contract.py",
+      "path": "archive/continuation/longrun_contract.py",
+      "sha256": "6f6e93abe52f8efce0ac7becf9b20247f4404e8b4703acfc8fb479f5ee4d1d0b",
+      "bytes": 3226
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/14_S2续训至30万步_20261015/train_longrun.py",
+      "path": "archive/continuation/train_longrun.py",
+      "sha256": "45467d266a3e3630e272e40588062578519f007aeaa0544886a2600a02fd5856",
+      "bytes": 12188
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/14_S2续训至30万步_20261015/sample_longrun.py",
+      "path": "archive/continuation/sample_longrun.py",
+      "sha256": "470f905267e75edb1129494d739c3a3f57a50c5d4e207c29fcab0d9ec17f4f7a",
+      "bytes": 2471
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/14_S2续训至30万步_20261015/summarize_longrun.py",
+      "path": "archive/continuation/summarize_longrun.py",
+      "sha256": "0fde79560ff51edba07f9e9a9655fcb503eea45cb7b86f3af104b6131631b9b5",
+      "bytes": 5211
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/14_S2续训至30万步_20261015/test_longrun.py",
+      "path": "archive/continuation/test_longrun.py",
+      "sha256": "8647e78b05884e01fc4ad93248bb2f4a1d06bf2f977a7c17b6c38a556dc02bda",
+      "bytes": 10399
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/16_A30_seed32恢复_20261024/seed32_recovery.py",
+      "path": "archive/continuation/seed32_recovery.py",
+      "sha256": "89ad968319721c3db08bb1332fe5526c71f5c30f81635ca731a297ce63de1fad",
+      "bytes": 5316
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/16_A30_seed32恢复_20261024/test_seed32_recovery.py",
+      "path": "archive/continuation/test_seed32_recovery.py",
+      "sha256": "ae6ad5d0b0dede9a228970d97a72410d45aa8fdcd38f59e3db57bb2d07494b8a",
+      "bytes": 4920
+    },
+    {
+      "source": "05_第二阶段_化学属性融合/05_实施开发/12_三架构融合代码与学习/00_共用第一阶段底座与训练工具/requirements.txt",
+      "path": "research/tedimol_s2/00_common_base/requirements.txt",
+      "sha256": "33f4be297291ebb78b35e0312856981fee5326efa076537b6ffb6a4186d18f69",
+      "bytes": 204
+    }
+  ],
+  "s2_recorded_property_source_match": {
+    "property_common.py": true,
+    "property_model_base.py": true,
+    "method_registry.py": true,
+    "property_metrics.py": true,
+    "property_data.py": true,
+    "property_runtime.py": true,
+    "comparison_runtime.py": true,
+    "train_compare.py": true,
+    "sample_compare.py": true,
+    "01_A1_TediMol加JoPMol属性前缀/a1_conditioning.py": true,
+    "01_A1_TediMol加JoPMol属性前缀/a1_fusion_model.py": true,
+    "02_A2_TediMol加RegressionTransformer数值编码/a2_conditioning.py": true,
+    "02_A2_TediMol加RegressionTransformer数值编码/a2_fusion_model.py": true,
+    "03_A3_TediMol加GraphDiT启发逐层调节/a3_conditioning.py": true,
+    "03_A3_TediMol加GraphDiT启发逐层调节/a3_fusion_model.py": true
+  }
+}

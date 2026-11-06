@@ -1,0 +1,11 @@
+{
+  "archive_sha256": "aad4af651a26f25ab3bc9bb79e972c0f2c3abe3ab8a4096f699823f0666fe27d",
+  "files": {
+    "config.json": "2813315bbd4843441359f2c98be9241f76b962af4a77058a9429fdeb553bdfbc",
+    "pytorch_model.bin": "acc5ae5f16206b893adfcf10772ee4472e24d7847145ac961097bd06129e2ece",
+    "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+    "tokenizer.json": "5a797027c356bfdc779fd021b4a7a2b2f341242ddd7035d385f56b8e242dac2a",
+    "tokenizer_config.json": "98632482a9851173e796e4366ede775ddc2900564a0ac659acb89248e39fbbd3",
+    "vocab.txt": "7b36651908a88bc38bda41b728b2a598191e0d3b553cbacf7b1e5f026d5b5b9f"
+  }
+}
